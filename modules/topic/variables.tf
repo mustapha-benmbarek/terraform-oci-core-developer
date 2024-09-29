@@ -7,6 +7,6 @@ variable "core-topics" {
     comp-name       = string
     tpc-id          = optional(string)
     tpc-name        = string
-    sub-description = optional(string)
+    tpc-description = optional(string)
   }))
 }
